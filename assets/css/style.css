@@ -1,0 +1,127 @@
+.profile-image img {
+    height: 250px;
+    max-width: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    position: fixed;
+    left: 400px;
+    top: 180px;
+    margin: 0;
+}
+.profile-text h1 {
+    color: blue;
+    position: fixed;
+    left: 720px;
+    top: 210px;
+}
+.profile-text p {
+    color: blueviolet;
+    position: fixed;
+    left: 720px;
+    top: 255px;
+    font-size: 25px;
+}
+.profile-text h5{
+    color: white;
+    position: fixed;
+    left: 720px;
+    top: 290px;
+    font-size: 20px;
+}
+.button-1 {
+    background-color: blue;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    top: 350px;
+    left: 710px;
+}
+.button-1:hover,
+.button-1:focus {
+  background-color: turquoise;
+}
+
+.button-2 {
+    background-color: blue;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    top: 350px;
+    left: 710px;
+}
+.button-2:hover,
+.button-2:focus {
+  background-color: turquoise;
+}
+
+.button-contact {
+    background: blue;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    position: fixed;
+    top: 440px;
+    left: 450px;
+}
+.button-contact:hover,
+.button-contact:focus {
+  background-color: turquoise;
+}
+

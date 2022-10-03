@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+    <title>Developer: api#0001</title>
+
+    <!-- Discord Embeds -->
+    <meta content="Random Website" property="og:title" />
+    <meta content="Site Description" property="og:description" />
+    <meta content="https://embed.com/this-is-the-site-url" property="og:url" />
+    <meta content="https://embed.com/embedimage.png" property="og:image" />
+
+</head>
+<body>
+
+    <style>
+        body {
+            background-color: #000000;
+            background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z' fill='%236f6f6f' fill-opacity='0.25' fill-rule='evenodd'/%3E%3C/svg%3E");
+        }
+    </style>
+    <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Oct 5, 2022 0:00:00").getTime();
+    
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+    
+      // Get today's date and time
+      var now = new Date().getTime();
+    
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+    
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+      // Display the result in the element with id="demo"
+      document.getElementById("birthday").innerHTML = + days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s " + "Until my birthday :)";
+    
+      // If the count down is finished, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+    </script>
+
+    <div class="profile-image">
+        <img src="https://images-ext-2.discordapp.net/external/5hoqiQZIqs6mOW4bR7-EzfuU4rZulKuXw9YIabKFW_E/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/755155481458114630/a_2b12b648773b6a40cc04d5f071a3de67.gif" alt="api-pfp">
+    </div>
+    <div class="profile-text">
+        <h1>api | Xrkzl</h1>
+        <p>A young developer.</p>
+        <h5 id="birthday"></h5>
+    </div>
+
+    <a href="https://instagram.com/xrkzl" target="_blank" rel="noopener">
+    <button class="button-1" role="button">
+        <i class="fab fa-instagram"> Instagram</i>
+    </button>
+    </a>
+
+    <a href="https://tiktok.com/xrkzl" target="_blank" rel="noopener">
+    <button class="button-2" role="button">
+        <i class="fab fa-tumblr"> Tiktok</i>
+    </button>
+    </a>
+
+    <a href="http://discord.apilol.xyz" target="_blank" rel="noopener">
+    <button class="button-contact", role="button">
+        <i class="fab fa-discord"> Contact me</i>
+    </button>
+    </a>
+   
+    
+</body>
+</html>
